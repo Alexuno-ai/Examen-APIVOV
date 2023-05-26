@@ -1,0 +1,39 @@
+.lobby-header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .logo-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .lobby-stats {
+    margin-top: 20px;
+    ion-item {
+      --inner-padding-end: 0;
+      --inner-padding-start: 0;
+    }
+    .stats-number {
+      font-weight: bold;
+      margin-top: 5px;
+    }
+  }
+  
+  .lobby-playlists {
+    text-align: center;
+    margin-top: 20px;
+    h2 {
+      font-weight: bold;
+    }
+    ion-card {
+      margin-top: 10px;
+      ion-card-header {
+        ion-card-title {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  
